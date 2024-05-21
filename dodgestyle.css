@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding:0;
+    
+    
+
+}
+body{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;  
+}
+.signin{
+    background-color: rgb(233, 230, 230);
+    width: 100%;
+    padding: 5px;
+}
+.signin a{
+    margin-left: 87%;
+    color: black;
+    
+}
+.topbar .logo{
+    width: 200px;
+}
+
+.topbar .logo img{
+    width: 150px;
+}
+.topbar{
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+li{
+    padding: 20px;
+}
+.cl li{
+    transform: translateY(20%);
+}
+.navbar{
+   
+    background-color: black;
+    display: flex;
+    
+}
+.navbar ul{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.navbar ul li a{
+    color: white;
+    font-size: smaller;
+    text-decoration: none;
+    
+}
+.sidenavbar{
+    display: flex;
+    gap: 2rem;
+    
+    /* justify-content: space-around; */
+    transform: translateY(-15%);
+    
+}
+.sidenavbar i{
+    color: aliceblue; 
+}
+.sidenavbar li a{
+    display: flex;
+    flex-direction: column;
+   
+}
+.find{
+    display: flex;
+}
+.find .icons{
+    transform: translateY(50%);
+}
+.find .location li a{
+    color: white;  
+    transform: translateY(-20%); 
+    font-size: smaller;
+    text-decoration: none;
+}
+.slideshow{
+    display: block;
+}
+.slideshow .slide{
+    width: 100%;
+    height: 600px;
+    
+}
+.slideshow .slide img{
+    width: inherit;
+    height: inherit;
+}
+.slideshow .text{
+    color: rgb(247, 241, 241);
+    width: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    transform: translateY(-150%);
+    margin-left: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(27, 27, 27, 0.5));       
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+.slideshow .text .buttons button{
+    background-color: red;
+    padding: 10px;
+    border-style: none;
+    color: aliceblue;
+    
+}
+    
+
